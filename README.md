@@ -1,2 +1,2 @@
-# eco_website
+# website
 Web programming
