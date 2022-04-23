@@ -99,6 +99,11 @@ p {
   line-height: 59px;
   color: #000000;
 }
+@media (max-width: 600px) {
+  .part2 .flexbox {
+    flex-direction: column;
+  }
+}
 .part2 .flexbox {
   display: flex;
   flex-direction: row;
@@ -142,9 +147,6 @@ p {
 .part2 .flexbox .product3 .price,
 .part2 .flexbox .product4 .price {
   top: 2895px;
-}
-.part2 .flexbox .product3 {
-  margin-right: 59.5px;
 }
 .part2 .flexbox .product4 {
   margin-left: 59.5px;
