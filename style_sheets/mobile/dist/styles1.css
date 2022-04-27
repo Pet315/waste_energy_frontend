@@ -1,5 +1,5 @@
 * {
-  max-width: 1600px;
+  max-width: 551px;
   box-sizing: border-box;
   margin: 0;
 }
@@ -58,23 +58,35 @@ h1 {
   line-height: 22px;
   text-align: center;
 }
+.part1 {
+  align-items: space-between;
+  display: flex;
+  background-image: url(https://img.freepik.com/free-vector/campfire-fireplace-flying-sparks-burning-flame_8071-5387.jpg?w=826);
+  height: 299px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .part1 .vers {
   margin-left: -460px;
   margin-top: -200px;
 }
 .part1 p {
-  position: absolute;
   font-weight: 600;
   font-size: 30px;
   line-height: 37px;
   color: #EDE38E;
 }
 .part1 .logo {
-  position: absolute;
   width: 83px;
   height: 49px;
-  left: 189px;
-  top: 28px;
+  margin-left: 189px;
+  margin-top: 28px;
+}
+.part1 .connect {
+  width: 49px;
+  height: 47px;
+  margin-left: 20px;
+  margin-top: 62px;
 }
 .part1 .menu1 {
   left: 790px;
@@ -83,7 +95,7 @@ h1 {
 .part1 .header {
   width: 239px;
   height: 26px;
-  margin-top: -210px;
+  margin-top: 0px;
   margin-left: 111px;
   font-family: 'Roboto';
   font-style: normal;
@@ -104,13 +116,6 @@ h1 {
   font-size: 12px;
   line-height: 15px;
 }
-.part1 .connect {
-  width: 49px;
-  height: 47px;
-  margin-left: 389px;
-  position: absolute;
-  top: 62px;
-}
 .part1 hr {
   position: absolute;
   width: 350px;
@@ -122,50 +127,56 @@ h1 {
 .part1 .icon1 {
   width: 45px;
   height: 46px;
-  margin-top: 74px;
-  margin-left: 60px;
+  margin-top: 190px;
+  margin-left: -390px;
 }
 .part1 .icon2 {
   width: 33px;
   height: 33px;
-  margin-left: 60px;
-  position: absolute;
-  top: 201px;
+  margin-left: -290px;
+  margin-top: 201px;
 }
 .part1 .icon3 {
-  margin-left: 160px;
-  position: absolute;
-  top: 201px;
+  margin-left: -190px;
+  margin-top: 201px;
   width: 35px;
   height: 35px;
 }
 .part1 .icon4 {
-  width: 33px;
-  height: 33px;
-  margin-left: 251px;
-  position: absolute;
-  top: 201px;
+  width: 34px;
+  height: 34px;
+  margin-left: -100px;
+  margin-top: 201px;
 }
 .part1 .icon1_text {
   margin-left: -60px;
 }
 .part1 .icon2_text {
-  margin-left: 40px;
+  margin-left: -50px;
 }
 .part1 .icon3_text {
-  margin-left: 140px;
+  margin-left: -55px;
 }
 .part1 .icon4_text {
-  margin-left: 230px;
+  margin-left: -55px;
+}
+.part2 .vers {
+  margin-top: 30px;
+  color: #3D315B;
+  mix-blend-mode: multiply;
+  font-family: 'Roboto';
+  font-weight: bolder;
 }
 .part2 hr {
-  position: absolute;
   height: 9px;
   width: 44px;
-  left: 208px;
-  top: 354px;
+  margin-left: 208px;
+  margin-top: 54px;
   border-radius: 200px;
   background: #3D315B;
+}
+.part2 .header1 {
+  margin-top: 15px;
 }
 .part2 .line2 {
   left: 207px;
@@ -194,9 +205,8 @@ h1 {
   margin-left: 10px;
 }
 .part2 svg {
-  position: absolute;
-  left: 283px;
-  top: 727px;
+  margin-left: 283px;
+  margin-top: -125px;
 }
 .part2 .image2_arrow {
   left: 285px;
@@ -251,7 +261,7 @@ h1 {
   width: 52px;
   height: 12px;
   left: 230px;
-  top: 1900px;
+  top: 2060px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -280,7 +290,7 @@ h1 {
   height: 17px;
   width: 14px;
   left: 286px;
-  top: 2202px;
+  top: 2363px;
 }
 .part3 .image3 {
   margin-top: 75px;
@@ -291,7 +301,7 @@ h1 {
 .part3 button {
   width: 227px;
   position: absolute;
-  top: 2650px;
+  top: 2810px;
   left: -47px;
 }
 .part4 h1 {
@@ -308,8 +318,10 @@ h1 {
   margin-top: 25px;
 }
 .part5 {
-  width: 460px;
-  height: 305px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 325px;
   margin-top: 31px;
   background: #C4C4C4;
 }
@@ -319,15 +331,16 @@ h1 {
 .part5 .logo {
   width: 85px;
   height: 40px;
-  margin-left: 31px;
-  margin-top: 29px;
+  margin-left: 5%;
+  margin-top: -55px;
 }
 .part5 .contacts {
-  margin-left: -90px;
+  margin-left: -100px;
+  margin-top: -130px;
 }
 .part5 .social_networks {
-  margin-left: -75px;
-  margin-top: -50px;
+  margin-left: -85px;
+  margin-top: -210px;
 }
 .part5 .icon1,
 .part5 .icon2,
@@ -335,24 +348,26 @@ h1 {
 .part5 .icon4 {
   width: 23px;
   height: 23px;
-  margin-left: 31px;
-  position: absolute;
-  top: 3090px;
+  margin-left: 5%;
+  margin-top: -270px;
 }
 .part5 .icon2 {
-  margin-left: 71px;
+  margin-left: 12%;
+  margin-top: -192px;
 }
 .part5 .icon3 {
-  margin-left: 105px;
+  margin-left: 18%;
+  margin-top: -191px;
 }
 .part5 .icon4 {
-  margin-left: 139px;
+  margin-left: 24.5%;
+  margin-top: -192px;
 }
 .part5 .license {
-  margin-top: -25px;
+  margin-top: -140px;
   width: 220px;
   height: 15px;
-  margin-left: 120px;
+  margin-left: 25%;
 }
 .part5 p1 {
   position: static;
@@ -362,7 +377,102 @@ h1 {
 .part5 menu {
   width: 120px;
   height: 195px;
-  margin-left: 313px;
-  margin-top: -235px;
+  margin-left: 60%;
+  margin-top: -400px;
   text-align: center;
+}
+@media (max-width: 463px) {
+  .part1 .connect {
+    margin-top: 145px;
+  }
+  .part1 hr {
+    display: none;
+  }
+  .part1 .icon4 {
+    margin-left: -50px;
+  }
+  .part1 .icon3 {
+    margin-left: -120px;
+  }
+  .part1 .icon2 {
+    margin-left: -200px;
+  }
+  .part1 .icon1,
+  .part1 .connect {
+    margin-left: -280px;
+  }
+  .part1 .text,
+  .part1 .logo,
+  .part1 .header {
+    margin-left: 0px;
+  }
+  .part2 .text {
+    width: 290px;
+  }
+  .part2 h1,
+  .part2 hr,
+  .part2 img,
+  .part2 p,
+  .part2 svg {
+    margin-left: 10px;
+    text-align: left;
+  }
+  .part2 .image1_text,
+  .part2 .image2_text,
+  .part2 .image3_text {
+    margin-left: 20px;
+  }
+  .part2 svg {
+    margin-left: 150px;
+  }
+  .part2 button {
+    margin-left: 10px;
+  }
+  .part3 h1,
+  .part3 .image1,
+  .part3 .image2,
+  .part3 .image3,
+  .part3 .text {
+    margin-left: 10px;
+    text-align: left;
+  }
+  .part3 .image1_text,
+  .part3 .image2_text,
+  .part3 .image3_text {
+    margin-left: 35px;
+  }
+  .part3 .image1 {
+    margin-top: 50px;
+  }
+  .part3 h1 {
+    height: 10px;
+  }
+  .part3 .text {
+    width: 290px;
+  }
+  .part3 time {
+    margin-left: -135px;
+    margin-top: 10px;
+  }
+  .part3 .date2 {
+    margin-top: 315px;
+  }
+  .part3 .date3 {
+    margin-top: 616px;
+  }
+  .part3 svg {
+    margin-left: 152px;
+    margin-top: 143px;
+  }
+  .part3 .calendar2 {
+    left: 150px;
+    top: 2370px;
+  }
+  .part3 button {
+    margin-left: 55px;
+  }
+  .part4 h1,
+  .part4 button {
+    margin-left: 10px;
+  }
 }

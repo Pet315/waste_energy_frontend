@@ -1,15 +1,14 @@
 * {
-  max-width: 1600px;
   box-sizing: border-box;
   margin: 0;
 }
 p {
   font-family: 'Montserrat';
   font-style: normal;
+  text-align: center;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-  text-align: center;
   width: 216px;
   height: 122px;
   margin-left: 30px;
@@ -44,23 +43,35 @@ h1 {
   line-height: 22px;
   text-align: center;
 }
+.part1 {
+  align-items: space-between;
+  display: flex;
+  background-image: url(https://img.freepik.com/free-vector/campfire-fireplace-flying-sparks-burning-flame_8071-5387.jpg?w=826);
+  height: 299px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .part1 .vers {
   margin-left: -460px;
   margin-top: -200px;
 }
 .part1 p {
-  position: absolute;
   font-weight: 600;
   font-size: 30px;
   line-height: 37px;
   color: #EDE38E;
 }
 .part1 .logo {
-  position: absolute;
   width: 83px;
   height: 49px;
-  left: 189px;
-  top: 28px;
+  margin-left: 189px;
+  margin-top: 28px;
+}
+.part1 .connect {
+  width: 49px;
+  height: 47px;
+  margin-left: 20px;
+  margin-top: 62px;
 }
 .part1 .menu1 {
   left: 790px;
@@ -69,7 +80,7 @@ h1 {
 .part1 .header {
   width: 239px;
   height: 26px;
-  margin-top: -210px;
+  margin-top: 0px;
   margin-left: 111px;
   font-family: 'Roboto';
   font-style: normal;
@@ -90,13 +101,6 @@ h1 {
   font-size: 12px;
   line-height: 15px;
 }
-.part1 .connect {
-  width: 49px;
-  height: 47px;
-  margin-left: 389px;
-  position: absolute;
-  top: 62px;
-}
 .part1 hr {
   position: absolute;
   width: 350px;
@@ -108,50 +112,55 @@ h1 {
 .part1 .icon1 {
   width: 45px;
   height: 46px;
-  margin-top: 74px;
-  margin-left: 60px;
+  margin-top: 190px;
+  margin-left: -390px;
 }
 .part1 .icon2 {
   width: 33px;
   height: 33px;
-  margin-left: 60px;
-  position: absolute;
-  top: 201px;
+  margin-left: -290px;
+  margin-top: 201px;
 }
 .part1 .icon3 {
-  margin-left: 160px;
-  position: absolute;
-  top: 201px;
+  margin-left: -190px;
+  margin-top: 201px;
   width: 35px;
   height: 35px;
 }
 .part1 .icon4 {
-  width: 33px;
-  height: 33px;
-  margin-left: 251px;
-  position: absolute;
-  top: 201px;
+  width: 34px;
+  height: 34px;
+  margin-left: -100px;
+  margin-top: 201px;
 }
 .part1 .icon1_text {
   margin-left: -60px;
 }
 .part1 .icon2_text {
-  margin-left: 40px;
+  margin-left: -50px;
 }
 .part1 .icon3_text {
-  margin-left: 140px;
+  margin-left: -55px;
 }
 .part1 .icon4_text {
-  margin-left: 230px;
+  margin-left: -55px;
+}
+.part2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .part2 .line1 {
-  position: absolute;
   height: 9px;
   width: 44px;
-  left: 208px;
-  top: 354px;
+  margin-left: 148px;
+  margin-top: 46px;
   border-radius: 200px;
   background: #3D315B;
+}
+.part2 .header1 {
+  margin-top: 10px;
 }
 .part2 div {
   margin-left: 93px;
@@ -215,8 +224,10 @@ h1 {
   top: 2518px;
 }
 .part3 {
-  width: 460px;
-  height: 305px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 325px;
   margin-top: 31px;
   background: #C4C4C4;
 }
@@ -226,15 +237,16 @@ h1 {
 .part3 .logo {
   width: 85px;
   height: 40px;
-  margin-left: 31px;
-  margin-top: 29px;
+  margin-left: 5%;
+  margin-top: -55px;
 }
 .part3 .contacts {
-  margin-left: 0px;
+  margin-left: 0%;
+  margin-top: -130px;
 }
 .part3 .social_networks {
-  margin-left: 16px;
-  margin-top: -50px;
+  margin-left: 2.5%;
+  margin-top: -210px;
 }
 .part3 .icon1,
 .part3 .icon2,
@@ -242,24 +254,26 @@ h1 {
 .part3 .icon4 {
   width: 23px;
   height: 23px;
-  margin-left: 31px;
-  position: absolute;
-  top: 2835px;
+  margin-left: 5%;
+  margin-top: -270px;
 }
 .part3 .icon2 {
-  margin-left: 71px;
+  margin-left: 12%;
+  margin-top: -192px;
 }
 .part3 .icon3 {
-  margin-left: 105px;
+  margin-left: 18%;
+  margin-top: -191px;
 }
 .part3 .icon4 {
-  margin-left: 139px;
+  margin-left: 24.5%;
+  margin-top: -192px;
 }
 .part3 .license {
-  margin-top: -25px;
+  margin-top: -140px;
   width: 220px;
   height: 15px;
-  margin-left: 120px;
+  margin-left: 25%;
 }
 .part3 p1 {
   position: static;
@@ -269,7 +283,36 @@ h1 {
 .part3 menu {
   width: 120px;
   height: 195px;
-  margin-left: 313px;
-  margin-top: -235px;
+  margin-left: 60%;
+  margin-top: -400px;
   text-align: center;
+}
+@media (max-width: 463px) {
+  .part1 .connect {
+    margin-top: 145px;
+  }
+  .part1 hr {
+    display: none;
+  }
+  .part1 .icon4 {
+    margin-left: -50px;
+  }
+  .part1 .icon3 {
+    margin-left: -120px;
+  }
+  .part1 .icon2 {
+    margin-left: -200px;
+  }
+  .part1 .icon1,
+  .part1 .connect {
+    margin-left: -280px;
+  }
+  .part1 .text,
+  .part1 .logo,
+  .part1 .header {
+    margin-left: 0px;
+  }
+  .part2 {
+    margin-left: -30%;
+  }
 }

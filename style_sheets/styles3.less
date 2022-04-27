@@ -1,19 +1,7 @@
 * {
-    max-width: 1600px;
+    // max-width: 1600px;
     box-sizing: border-box;
     margin:0;
-}
-
-menu {
-    position: absolute;
-    width: 697px;
-    height: 25px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    color: #EDE38E;
 }
 
 p {
@@ -21,40 +9,57 @@ p {
     font-style: normal;
 }
 
+div {
+    display: flex;
+    flex-direction:column;
+    background-size: cover;
+    justify-content: space-between;
+}
+
 .part1 {
+    // background-repeat: no-repeat;
+
+    background-image: url(https://kartinkin.net/uploads/posts/2021-07/1625826059_18-kartinkin-com-p-oboi-v-vide-ognya-krasivie-18.jpg);
+    height: 711px;
+
+    .teleport {
+        display: none;
+    }
 
     a {
         text-decoration: none;
         color: #EDE38E;
     }
 
-    p {
-        position: absolute;
-        font-weight: 600;
-        font-size: 30px;
-        line-height: 37px;
-        color: #EDE38E;
-    }
-
     .logo {
-        position: absolute;
+        margin-left: 8.5%;
+        margin-top: 39px;
         width: 172px;
-        height: 99px;
-        left: 170px;
-        top: 39px;
+        // width: 17%;
+        height: 14%;
     }
 
-    .menu1 {
-        left: 790px;
-        top: 76px;
+    p1 {
+        text-align: right;
+        margin-right: 3%;
+        margin-left: 8.5%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 0px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #EDE38E;
+        word-wrap: break-word;
     }
 
-    .header {
-        position: absolute;
+    h1 {
+        margin-right: 3%;
         width: 780px;
-        height: 84px;
-        left: 170px;
-        top: 240px;
+        height: 0px;
+        margin-left: 8.5%;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -63,24 +68,25 @@ p {
         color: #EDE38E;
     }
 
-    .text {
-        height: 230px;
+    p {
+        height: 0px;
         width: 743px;
-        left: 172px;
-        top: 384px;
+        margin-left: 8.5%;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 37px;
+        color: #EDE38E;
     }
 
+
+
     .button {
-        position: absolute;
         width: 389px;
         height: 125px;
-        left: 1094px;
-        top: 502px;
+        margin-left: 60%;
         background: #3D315B;
         border-radius: 30px;
         width: 389px;
-        left: 1094px;
-        top: 502px;
         font-weight: 600;
         font-size: 30px;
         line-height: 37px;
@@ -174,10 +180,6 @@ p {
             }
         }
 
-        .product3 {
-            margin-right: 59.5px;
-        }
-
         .product4 {
             margin-left: 59.5px;
         }
@@ -219,11 +221,10 @@ p {
         }
     
         .price {
-            margin-left: 100px;
-            position: absolute;
-            width: 320px;
+            margin-left: 140px;
+            width: 253px;
             height: 28px;
-            top: 1700px;
+            margin-top: 50px;
             text-align: center;
             font-weight: 600;
             font-size: 23px;
@@ -234,7 +235,7 @@ p {
         .buy {
 
             margin-left: 160px;
-            margin-top: 125px;
+            margin-top: 120px;
             width: 201px;
             height: 77px;
             background: #B53F3F;
@@ -250,13 +251,10 @@ p {
 
     }
 
-
 }
 
 .part3 {
-
     margin-top: 85px;
-    width: 1600px;
     height: 476px;
     background: rgba(196, 196, 196, 0.92);
 
@@ -282,21 +280,28 @@ p {
     }
 
     .menu2 {
-        position: static;
-        margin-top: 58.11px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: -50px;
         margin-left: 115px;
         color: #000000;
     }
 
     .license {
+        text-align: center;
         width: 367px;
         height: 24px;
         margin-left: 154px;
-        margin-top: 75px;
+        margin-top: -27px;
     }
 
     .contacts {
-        position: absolute;
+        margin-left: 65%;
+        margin-top: -400px;
+        margin-bottom: 50px;
         width: 305.71px;
         height: 83.61px;
         left: 1196.91px;
@@ -304,43 +309,177 @@ p {
     }
 
     .social_networks {
-        position: absolute;
+        // position: absolute;
+        margin-left: 63%;
+        margin-top: -100px;
         width: 308px;
         height: 83.61px;
         left: 1196.91px;
         top: 3444px;
     }
 
-    .icon1 {
-        position: absolute;
-        width: 55.05px;
-        height: 51.28px;
-        left: 1200px;
-        top: 3524px;
+    .icons {
+        display: flex;
+        flex-direction:row;
+        background-size: cover;
+        justify-content: space-between;
+        width: 20px;
+        margin-left: 65%;
+        margin-bottom:100px;
+        margin-top: -120px;
     }
 
-    .icon2 {
-        position: absolute;
-        width: 55.05px;
-        height: 51.28px;
-        left: 1288px;
-        top: 3524px;
+    .icon1, .icon2, .icon3, .icon4 {
+        width: 50px;
+        margin-left: 20px;
     }
 
-    .icon3 {
-        position: absolute;
-        width: 55.05px;
-        height: 51.28px;
-        left: 1370px;
-        top: 3524px;
+}
+
+.teleport {
+    background-color: rgba(196, 196, 196, 0.92);
+    .advert {
+        visibility: hidden;
+    }
+}
+
+// media
+
+.part1 {
+    @media (min-width:1025px) {
+        p1 {
+            margin-top: -225px;
+        }
+        h1 {
+            margin-top: -50px;
+        }
+        .button {
+            margin-bottom: 50px;
+        }
+    }
+    
+    @media (max-width:1025px) {
+        p1 {
+            margin-top: -130px;
+        }
+        h1 {
+            margin-top: -50px;
+        }
+        .button {
+            display: none;
+        }
+    }
+    
+    @media (max-width:900px) {
+        p1 {
+            margin-top: -80px;
+        }
+        h1, p {
+            width: 90%;
+            
+        }
+        p {
+            color: #3D315B;
+            // mix-blend-mode:color-burn;
+            // mix-blend-mode: hard-light;
+            mix-blend-mode:multiply;
+            font-family: 'Roboto';
+            font-weight: bolder;
+        }
+        h1 {
+            margin-bottom: 200px;
+        }
+    
+    }
+    
+    @media (max-width:360px) {
+        h1 {
+            font-size: 60px;
+        }
+        p {
+            margin-top: -40px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.part2 {
+    .flexbox {
+        @media (max-width:1360px) {
+            // @import url("style_sheets/mobile//dist/styles2.css");
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        
+            // .price {
+            //     position: static;
+            //     // margin-top: 50px;
+            // }
+        
+            // .buy {
+            //     margin-top: 40px;
+            // }
+        
+            .product2 {
+        
+                margin-left: 0px;
+                margin-top: 100px;
+                margin-bottom: -140px;
+            }
+        
+            .product1 {
+                margin-top: -30px;
+            }
+        
+            .product4 {
+                margin-left: 0px;
+                margin-top: 100px;
+            }
+        }
+
+        @media (max-width:633px) {
+            div, .product2, .product4 {
+                margin-left: 11%;
+            }
+        }
+    }
+}
+
+.part3 {
+    
+    @media (max-width: 1360px) {
+        .social_networks {
+            margin-top: -180px;
+        }
+        .contacts {
+            margin-top: -490px;
+        }
     }
 
-    .icon4 {
-        position: absolute;
-        width: 55.05px;
-        height: 51.28px;
-        left: 1450px;
-        top: 3524px;
+    @media (max-width:880px) {
+        .logo, .menu2, .license, .icons, .social_networks {
+            margin-left: 5%;
+        }
+        .contacts {
+            margin-left: 38%;
+        }
     }
 
+}
+
+@media (max-width:551px) {
+
+    .part1, .part2, .part3 {
+        display: none;
+    }
+
+    .teleport {
+        background-color: #FFFFFF;
+        .advert {
+            color: blue;
+            visibility: visible;
+            margin-top: 100px;
+        }
+    }
+    
 }
