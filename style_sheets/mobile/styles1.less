@@ -230,9 +230,6 @@ h1 {
     }
 
     img {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
         margin-top: -32px;
         margin-left: 143px;
         width: 173px;
@@ -469,6 +466,15 @@ h1 {
 
 }
 
+.teleport {
+    background-color: rgba(196, 196, 196, 0.92);
+    height: 0px;
+    margin-top: -150px;
+    .advert {
+        visibility: hidden;
+    }
+}
+
 @media (max-width: 463px) {
     .part1 {
         .connect {
@@ -557,4 +563,24 @@ h1 {
             margin-left: 10px;
         }
     }
+    
+}
+
+@media (min-width:551px) {
+
+    .part1, .part2, .part3, .part4, .part5 {
+        display: none;
+    }
+
+    .teleport {
+        background-color: #FFFFFF;
+        a {
+            color: blue;
+        }
+        .advert {
+            visibility: visible;
+            margin-top: 300px;
+        }
+    }
+    
 }

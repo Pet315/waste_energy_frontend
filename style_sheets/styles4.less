@@ -1,19 +1,12 @@
 * {
-    max-width: 1600px;
+    // max-width: 1600px;
     box-sizing: border-box;
     margin:0;
 }
 
-menu {
-    position: absolute;
-    width: 697px;
-    height: 25px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    color: #EDE38E;
+a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 p {
@@ -21,40 +14,99 @@ p {
     font-style: normal;
 }
 
-.part1 {
+div {
+    display: flex;
+    flex-direction:column;
+    background-size: cover;
+    justify-content: space-between;
+}
 
-    a {
-        text-decoration: none;
-        color: #EDE38E;
-    }
-
-    p {
+.part2, .part3 {
+    h1 {
         position: absolute;
+        height: 59px;
+        left: 172px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 59px;
+        color: #000000;
+    }
+    
+    .text {
+        // position: absolute;
+        height: 230px;
+        margin-left: 172px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 37px;
+    }
+    
+    button {
+        // position: absolute;
+        width: 389px;
+        height: 125px;
+        // left: 1094px;
+        // top: 502px;
+        background: #3D315B;
+        border-radius: 30px;
+        font-family: 'Montserrat';
+        font-style: normal;
         font-weight: 600;
         font-size: 30px;
         line-height: 37px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+}
+
+.part1 {
+    // background-repeat: no-repeat;
+
+    background-image: url(https://kartinkin.net/uploads/posts/2021-07/1625826059_18-kartinkin-com-p-oboi-v-vide-ognya-krasivie-18.jpg);
+    height: 711px;
+
+    a {
         color: #EDE38E;
     }
 
     .logo {
-        position: absolute;
+        margin-left: 8.5%;
+        margin-top: 39px;
         width: 172px;
-        height: 99px;
-        left: 170px;
-        top: 39px;
+        // width: 17%;
+        height: 14%;
     }
 
-    .menu1 {
-        left: 790px;
-        top: 76px;
+    p1 {
+        text-align: right;
+        margin-right: 3%;
+        margin-left: 8.5%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 0px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #EDE38E;
+        word-wrap: break-word;
     }
 
-    .header {
-        position: absolute;
+    h1 {
+        margin-right: 3%;
         width: 780px;
-        height: 84px;
-        left: 170px;
-        top: 240px;
+        height: 0px;
+        margin-left: 8.5%;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
@@ -63,24 +115,25 @@ p {
         color: #EDE38E;
     }
 
-    .text {
-        height: 230px;
+    p {
+        height: 0px;
         width: 743px;
-        left: 172px;
-        top: 384px;
+        margin-left: 8.5%;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 37px;
+        color: #EDE38E;
     }
 
+
+
     .button {
-        position: absolute;
         width: 389px;
         height: 125px;
-        left: 1094px;
-        top: 502px;
+        margin-left: 60%;
         background: #3D315B;
         border-radius: 30px;
         width: 389px;
-        left: 1094px;
-        top: 502px;
         font-weight: 600;
         font-size: 30px;
         line-height: 37px;
@@ -258,9 +311,7 @@ p {
 }
 
 .part3 {
-
-    margin-top: 150px;
-    width: 1600px;
+    margin-top: 205px;
     height: 476px;
     background: rgba(196, 196, 196, 0.92);
 
@@ -286,65 +337,238 @@ p {
     }
 
     .menu2 {
-        position: static;
-        margin-top: 58.11px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: -50px;
         margin-left: 115px;
         color: #000000;
     }
 
     .license {
+        text-align: center;
         width: 367px;
         height: 24px;
         margin-left: 154px;
-        margin-top: 75px;
+        margin-top: -27px;
     }
 
     .contacts {
-        position: absolute;
+        margin-left: 65%;
+        margin-top: -400px;
+        margin-bottom: 50px;
         width: 305.71px;
         height: 83.61px;
         left: 1196.91px;
-        top: 5890px;
+        top: 3300px;
     }
 
     .social_networks {
-        position: absolute;
+        // position: absolute;
+        margin-left: 63%;
+        margin-top: -100px;
         width: 308px;
         height: 83.61px;
-        left: 1136px;
-        top: 6050px;
+        left: 1196.91px;
+        top: 3444px;
     }
 
-    .icon1 {
-        position: absolute;
-        width: 55px;
-        height: 51px;
-        left: 1184px;
-        top: 6120px;
+    .icons {
+        display: flex;
+        flex-direction:row;
+        background-size: cover;
+        justify-content: space-between;
+        width: 20px;
+        margin-left: 65%;
+        margin-bottom:100px;
+        margin-top: -120px;
     }
 
-    .icon2 {
-        position: absolute;
-        width: 55px;
-        height: 51px;
-        left: 1268px;
-        top: 6120px;
+    .icon1, .icon2, .icon3, .icon4 {
+        width: 50px;
+        margin-left: 20px;
     }
 
-    .icon3 {
-        position: absolute;
-        width: 55px;
-        height: 51px;
-        left: 1350px;
-        top: 6120px;
+}
+
+.teleport {
+    background-color: rgba(196, 196, 196, 0.92);
+    .advert {
+        visibility: hidden;
+    }
+}
+
+// media
+
+.part1 {
+    @media (min-width:1025px) {
+        p1 {
+            margin-top: -225px;
+        }
+        h1 {
+            margin-top: -50px;
+        }
+        .button {
+            margin-bottom: 50px;
+        }
+    }
+    
+    @media (max-width:1025px) {
+        p1 {
+            margin-top: -130px;
+        }
+        h1 {
+            margin-top: -50px;
+        }
+    }
+    
+    @media (max-width:900px) {
+        p1 {
+            margin-top: -80px;
+        }
+        h1, p {
+            width: 90%;
+            
+        }
+        p {
+            color: #3D315B;
+            // mix-blend-mode:color-burn;
+            // mix-blend-mode: hard-light;
+            mix-blend-mode:multiply;
+            font-family: 'Roboto';
+            font-weight: bolder;
+        }
+        h1 {
+            margin-bottom: 200px;
+        }
+    
+    }
+    
+    @media (max-width:360px) {
+        h1 {
+            font-size: 60px;
+        }
+        p {
+            margin-top: -40px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.part2 {
+
+    @media (max-width:1464px) {
+        .news_icon {
+            margin-top: 60px;
+        }
+
+        .line1 {
+            left:40px;
+        }
+
+        .news_icon, h1 {
+            margin-left: 40px;
+        }
+
+        h2 {
+            width:80%;
+            word-wrap: break-word;
+            margin-left: 115px;
+        }
+
+        .date {
+            margin-top: 200px;
+            margin-left: 40px;
+        }
+        .calendar {
+            top: 1200px;
+            left:-125px;
+        }
+        
+        .par1, .par2, .par3, .par4, .par5 {
+            width:90%;
+            word-wrap: break-word;
+            margin-left:40px;
+        }
+
+        .image1, .image2, .image3, .image4 {
+            margin-top: 300px;
+            margin-left: 40px;
+            width: 90%;
+            height: 60%;
+        }
+
+        .image3 {
+            margin-top: 340px;
+        }
+
+        .image4 {
+            margin-top: 500px;
+        }
+
+        .image_link1, .image_link2, .image_link3, .image_link4 {
+            margin-left: 40px;
+        }
+    
     }
 
-    .icon4 {
-        position: absolute;
-        width: 55px;
-        height: 51px;
-        left: 1427px;
-        top: 6120px;
+    
+
+    @media (max-width:948px) {
+        .image1, .image2 {
+            margin-top: 1000px;
+        }
     }
 
+}
+
+.part3 {
+
+    @media (max-width:1464px) {
+        margin-top: 440px;
+    }
+    
+    @media (max-width: 1360px) {
+        .social_networks {
+            margin-top: -180px;
+        }
+        .contacts {
+            margin-top: -490px;
+        }
+    }
+
+    @media (max-width:880px) {
+        .logo, .menu2, .license, .icons, .social_networks {
+            margin-left: 5%;
+        }
+        .contacts {
+            margin-left: 38%;
+        }
+    }
+
+}
+
+@media (max-width:551px) {
+
+    .part1, .part2, .part3, .part4, .part5 {
+        display: none;
+    }
+
+    .teleport {
+        background-color: #FFFFFF;
+        .advert {
+            color: blue;
+            visibility: visible;
+            margin-top: 100px;
+        }
+    }
+    
+}
+
+@media (max-width:1025px) {
+    button {
+        display: none;
+    }
 }
