@@ -305,7 +305,7 @@ h1 {
   width: 280px;
   height: 97px;
   margin-left: 85px;
-  margin-top: 26px;
+  margin-top: 126px;
   color: #C83E4D;
 }
 .part4 button {
@@ -350,12 +350,15 @@ h1 {
 }
 .part5 .icon2 {
   margin-left: 12%;
+  margin-top: -192px;
 }
 .part5 .icon3 {
   margin-left: 18%;
+  margin-top: -191px;
 }
 .part5 .icon4 {
   margin-left: 24.5%;
+  margin-top: -192px;
 }
 .part5 .license {
   margin-top: -140px;
