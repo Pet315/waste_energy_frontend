@@ -58,7 +58,7 @@ div {
   color: #FFFFFF;
 }
 .part1 {
-  background-image: url(https://kartinkin.net/uploads/posts/2021-07/1625826059_18-kartinkin-com-p-oboi-v-vide-ognya-krasivie-18.jpg);
+  background-image: url(https://img.freepik.com/free-vector/burning-red-hot-sparks-realistic-fire-flames-abstract-background_29865-1545.jpg);
   height: 711px;
 }
 .part1 a {
@@ -265,6 +265,7 @@ div {
 }
 .part3 a {
   color: #000000;
+  text-decoration: none;
 }
 .part3 p {
   font-family: 'Montserrat';
