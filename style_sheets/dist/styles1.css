@@ -538,8 +538,11 @@ div {
   .teleport {
     background-color: #FFFFFF;
   }
-  .teleport .advert {
+  .teleport a {
     color: blue;
+  }
+  .teleport .advert {
+    color: #000;
     visibility: visible;
     margin-top: 100px;
   }
