@@ -103,6 +103,55 @@ div {
   line-height: 59px;
   color: #000000;
 }
+.part2 .header {
+  width: 403px;
+  height: 74px;
+  margin-left: 59px;
+  margin-top: 27px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #000000;
+}
+.part2 .text {
+  margin-left: 66px;
+  margin-top: 41px;
+  width: 389px;
+  height: 210px;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 26px;
+  text-align: center;
+  color: #000000;
+}
+.part2 .price {
+  margin-left: 140px;
+  width: 253px;
+  height: 28px;
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 28px;
+  color: #000000;
+}
+.part2 .buy {
+  margin-left: 160px;
+  margin-top: 120px;
+  width: 201px;
+  height: 77px;
+  background: #B53F3F;
+  border-radius: 15px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
 .part2 .flexbox {
   display: flex;
   flex-direction: row;
@@ -150,54 +199,9 @@ div {
 .part2 .flexbox .product4 {
   margin-left: 59.5px;
 }
-.part2 .flexbox .header {
-  width: 403px;
-  height: 74px;
-  margin-left: 59px;
-  margin-top: 27px;
-  text-align: center;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 37px;
-  color: #000000;
-}
-.part2 .flexbox .text {
-  margin-left: 66px;
-  margin-top: 41px;
-  width: 389px;
-  height: 210px;
-  font-weight: 400;
-  font-size: 21px;
-  line-height: 26px;
-  text-align: center;
-  color: #000000;
-}
-.part2 .flexbox .price {
-  margin-left: 140px;
-  width: 253px;
-  height: 28px;
-  margin-top: 50px;
-  text-align: center;
-  font-weight: 600;
-  font-size: 23px;
-  line-height: 28px;
-  color: #000000;
-}
-.part2 .flexbox .buy {
-  margin-left: 160px;
-  margin-top: 120px;
-  width: 201px;
-  height: 77px;
-  background: #B53F3F;
-  border-radius: 15px;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-  color: #FFFFFF;
+.part2 .flexbox .product2 .buy,
+.part2 .flexbox .product3 .buy {
+  margin-top: 110px;
 }
 .part3 {
   margin-top: 85px;
