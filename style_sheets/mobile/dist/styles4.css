@@ -152,7 +152,7 @@ h1 {
   height: 9px;
   width: 44px;
   left: 208px;
-  top: 350px;
+  top: 340px;
   border-radius: 200px;
   background: #3D315B;
 }
@@ -267,19 +267,19 @@ h1 {
   width: 23px;
   height: 23px;
   margin-left: 5%;
-  margin-top: -270px;
+  margin-top: -271px;
 }
 .part5 .icon2 {
   margin-left: 12%;
-  margin-top: -192px;
+  margin-top: -189px;
 }
 .part5 .icon3 {
   margin-left: 18%;
-  margin-top: -191px;
+  margin-top: -188px;
 }
 .part5 .icon4 {
   margin-left: 24.5%;
-  margin-top: -192px;
+  margin-top: -188px;
 }
 .part5 .license {
   margin-top: -140px;
@@ -334,6 +334,7 @@ h1 {
   }
   .part2 .line1 {
     left: 40px;
+    top: 340px;
   }
   .part2 .header1 {
     margin-left: 10px;
