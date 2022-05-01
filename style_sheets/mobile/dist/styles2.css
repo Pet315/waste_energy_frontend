@@ -325,22 +325,3 @@ h1 {
     margin-left: -30%;
   }
 }
-@media (min-width: 551px) {
-  .part1,
-  .part2,
-  .part3,
-  .part4,
-  .part5 {
-    display: none;
-  }
-  .teleport {
-    background-color: #FFFFFF;
-  }
-  .teleport a {
-    color: blue;
-  }
-  .teleport .advert {
-    visibility: visible;
-    margin-top: 300px;
-  }
-}
