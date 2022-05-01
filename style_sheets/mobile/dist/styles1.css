@@ -481,7 +481,7 @@ h1 {
     margin-left: 10px;
   }
 }
-@media (min-width: 617px) {
+@media (min-width: 590px) {
   .part2 .vers {
     color: #EDE38E;
     mix-blend-mode: normal;
@@ -499,13 +499,13 @@ h1 {
     display: none;
   }
   .part3 time {
-    top: 2094px;
+    top: 2093px;
   }
   .part3 .date2 {
     margin-top: 310px;
   }
   .part3 .calendar2 {
-    top: 2400px;
+    top: 2398px;
   }
   .part3 .date3 {
     margin-top: 613px;
