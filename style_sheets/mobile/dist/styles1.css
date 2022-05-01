@@ -1,5 +1,4 @@
 * {
-  max-width: 551px;
   box-sizing: border-box;
   margin: 0;
 }
@@ -482,7 +481,7 @@ h1 {
     margin-left: 10px;
   }
 }
-@media (min-width: 551px) {
+@media (min-width: 915px) {
   .part1,
   .part2,
   .part3,
