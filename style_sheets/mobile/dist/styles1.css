@@ -481,22 +481,21 @@ h1 {
     margin-left: 10px;
   }
 }
+@media (min-width: 617px) {
+  .part2 .vers {
+    color: #EDE38E;
+    mix-blend-mode: normal;
+  }
+}
 @media (min-width: 915px) {
-  .part1,
-  .part2,
-  .part3,
-  .part4,
-  .part5 {
+  .part2 .image2,
+  .part2 .image3 {
+    margin-top: 0px;
+    margin-left: -450px;
+    width: 173px;
+    height: 167px;
+  }
+  .image3_arrow {
     display: none;
-  }
-  .teleport {
-    background-color: #FFFFFF;
-  }
-  .teleport a {
-    color: blue;
-  }
-  .teleport .advert {
-    visibility: visible;
-    margin-top: 300px;
   }
 }
